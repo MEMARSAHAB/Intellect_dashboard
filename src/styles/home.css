@@ -1,0 +1,74 @@
+.home_page_cont{
+    padding: 10px 20px;
+}
+
+.banner{
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #ff925f;
+    box-sizing: border-box;
+    margin: 10px 5px;
+    width: calc(100vw - 300px);
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    position: relative;
+}
+
+.intro_image{
+    width: 400px;
+    height: 200px;
+}
+
+.text_disc{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 30px 40px;
+}
+
+.text_disc h2{
+    font-size: 35px;
+    font-weight: 300;
+    margin: 0 0 5px 0 ;
+}
+.text_disc h1{
+     font-size: 40px;
+     font-weight: 900;
+     margin-top: 5px;
+}
+
+.text_disc button{
+    padding: 10px 15px;
+    border-radius: 20px;
+    font-size: 18px;
+    border: 0;
+    background-color: #c95401;
+    color: #d4d4d4;
+    font-weight: 300;
+}
+
+.states_cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.lng_card{
+    width: 300px;
+    height: 300px;
+}
+.state_card{
+    width: 400px;
+}
+
+@media only screen and (max-width: 1055px) {
+    .state_card{
+        width: 300px;
+    }
+    
+}
+
+

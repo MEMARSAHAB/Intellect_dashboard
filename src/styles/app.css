@@ -1,0 +1,7 @@
+.page_cont{
+  background-color: burlywood;
+  display: flex;
+  flex-direction: row;
+}
+
+

@@ -1,0 +1,6 @@
+.sidebar_cont{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
