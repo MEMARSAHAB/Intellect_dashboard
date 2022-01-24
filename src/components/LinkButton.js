@@ -6,7 +6,7 @@ export default function LinkButton({ name, to, src }) {
     <div className='link_cont'>
       <div className='link_face'>
         <img src={require(`../assets/${src}`)} alt='fhjg' />
-        <Link to={'/setting'}>{name}</Link>
+        <Link to={'/'}>{name}</Link>
       </div>
       <img src={require('../assets/arrow.png')} alt='ufuig' />
     </div>
